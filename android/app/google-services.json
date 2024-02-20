@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1099401687518",
+    "project_id": "dw7-job-timer-2a6e8",
+    "storage_bucket": "dw7-job-timer-2a6e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099401687518:android:8af857abf0894986c52d4f",
+        "android_client_info": {
+          "package_name": "br.com.lucasdonay.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099401687518-9c5mesjm9eh6ik8l0u3mlfe36ib04vv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.lucasdonay.job_timer",
+            "certificate_hash": "23adc384cba0edef2ab7d2e908fa35a0b603d860"
+          }
+        },
+        {
+          "client_id": "1099401687518-tv3pspbn90jngocai166rgmbl2qjm0mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl1M0MYM35tsIDzLErcfRIEacFJP9Ml-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099401687518-tv3pspbn90jngocai166rgmbl2qjm0mg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1099401687518-0cv55gvvscubm79igotihbmbavadifkg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.lucasdonay.jobTimer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
