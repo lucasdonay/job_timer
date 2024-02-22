@@ -2,10 +2,12 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:job_timer/app/modules/login/controller/login_controller.dart';
 import 'package:job_timer/app/modules/login/login_page.dart';
 
+import '../../services/auth/auth_service.dart';
+
 class LoginModule extends Module {
   @override
   void binds(Injector i) {
-    i.addLazySingleton<LoginController>(LoginController.new);
+    i.addLazySingleton((i) => LoginController(authService: i()));
   }
 
   @override
@@ -13,7 +15,7 @@ class LoginModule extends Module {
     r.child(
       '/',
       child: (context) => LoginPage(
-        controller: Modular.get(),
+        controller: LoginController(authService: Modular.get<AuthService>()),
       ),
     );
   }
